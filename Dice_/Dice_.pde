@@ -58,10 +58,7 @@ class Die {
     fill(255);
     noStroke();
     rect(x, y, 50, 50, 5);
-
-    /*Fik inspiration af https://openprocessing.org/sketch/100534/ til at lave øjnene,
-    synes det var meget smart så man ikke skulle gentage alt for mange gange.*/
-    
+  
     if (eyes ==1 || eyes == 3 || eyes == 5) {
       fill(0);
       ellipse(x, y, 10, 10);
